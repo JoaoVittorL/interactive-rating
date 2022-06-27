@@ -3,16 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-   --orange: hsl(25, 97%, 53%);
-   --white: hsl(0, 0%, 100%);
-   --light: hsl(217, 12%, 63%);
-   --medium: hsl(216, 12%, 54%);
-   --dark: hsl(213, 19%, 18%);
-   --very: hsl(216, 12%, 8%);
 
-   --over: 'Overpass', sans-serif;
-}
 html{
    font-size: 62.5%;
 }
@@ -55,13 +46,15 @@ ul{
     margin-block: 2rem;
     color: var(--medium);
     cursor: pointer;
-    gap: 10px;
+    gap: 10px;   
 }
 li{
     width: 20%;
     text-align: center;
     padding: 2rem;
     border-radius: 50%;
+    background-color:var(--dark) ;
+    transition: .3s;
 }
 
 li:hover{
@@ -75,15 +68,23 @@ button{
     padding-block: 1.4rem ;
     border-radius: 4rem;
     background-color: var(--orange);
+    cursor: pointer;
+
     color: var(--white) ;
-    
+    font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;
-    cursor: pointer;
+    letter-spacing: 0.5rem;
+    transition: .3s;
 }
-button{
-
+button:hover{
+    background-color: var(--white);
+    color: var(--orange);
 }
 
+
+.select {
+   background-color: black;   
+}
 
 
