@@ -1,4 +1,5 @@
 # Frontend Mentor - Interactive rating component
+[https://joaovittorl.github.io/interactive-rating/]
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
